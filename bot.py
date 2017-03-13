@@ -14,7 +14,7 @@ def talk_to_me(bot,update):
     bot.sendMessage(update.message.chat_id,update.message.text)
 
 def main():
-    updater=Updater("291056924:AAHNPSrKjLEdN69AmIqTZH5n3As0wgNySJg")
+    updater=Updater("xxxxxxxx")
      
     dp=updater.dispatcher
     dp.add_handler(CommandHandler("start", greet_user))
